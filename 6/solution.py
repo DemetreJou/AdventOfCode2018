@@ -33,7 +33,15 @@ def part1():
 
 
 def part2():
-    pass
+    count = 0
+    for y in range(y0, y1 + 1):
+        for x in range(x0, x1 + 1):
+            # sum all the distances and increment counter
+            if sum(distance(x, y, px, py) for px, py in p) < 10000:
+                count += 1
+    print(count)
 
 
-part1()
+# uncomment to get each part
+# part1()
+part2()
