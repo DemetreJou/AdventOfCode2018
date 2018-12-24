@@ -14,7 +14,7 @@ Before day 6 you can run the solutions by uncommenting the appropriate lines whe
 On day 6 and onwards I switched to using fileinput module to make reading the inputs cleaner. 
 I also split each part of the solutions into two functions to make it easier to read
 
-To run cd into the appropriate folder then run after uncommenting to get either part 1 or 2
+To run cd into the appropriate folder then run below into terminal after uncommenting to get either part 1 or 2
 ```
 $ python solution.py input.txt
 ```
